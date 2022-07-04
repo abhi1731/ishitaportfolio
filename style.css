@@ -377,7 +377,26 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+/* Portfolio Section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
 
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 360px;
+    height: 450px;
+    margin: 10px;
+}
 /* teams section styling */
 .teams .title::after{
     content: "who works with me";
